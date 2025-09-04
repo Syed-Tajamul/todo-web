@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div className="max-w-xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">Todo App</h1>
+      <h1 className="text-2xl font-bold mb-4 bg-green-400">Todo App</h1>
 
       {/* Add Todo */}
       <form
@@ -75,7 +75,7 @@ const App = () => {
         <button
           type="submit"
           disabled={loading}
-          className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+          className="bg-green-500 text-white p-2 rounded hover:bg-green-400"
         >
           {loading ? "Adding..." : "Add Todo"}
         </button>
