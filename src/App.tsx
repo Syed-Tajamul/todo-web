@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div className="max-w-xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4 bg-green-400">Todo App</h1>
+      <h1 className="text-2xl font-bold mb-4 text-green-400">Todo App</h1>
 
       {/* Add Todo */}
       <form
