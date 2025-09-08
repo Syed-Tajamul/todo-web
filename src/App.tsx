@@ -12,7 +12,7 @@ const App = () => {
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_URL = "https://pokemon-worker.syed-tajamul.workers.dev/todos";
+  const API_URL = "https://pokemon-worker.syed-tajamul.workers.dev/todoss";
 
   useEffect(() => {
     fetchTodos();
